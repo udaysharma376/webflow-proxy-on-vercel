@@ -3,7 +3,7 @@ export default async function handler(req, res) {
 
   try {
     const response = await fetch(
-      `https://api.webflow.com/v2/collections/6943dcb5680f71517cf50660/items/${id}`,
+      `https://api.webflow.com/v2/collections/69423901ea3cd5e0b9716cb8/items/${id}`,
       {
         headers: {
           Authorization: `Bearer ${process.env.WEBFLOW_TOKEN}`,
